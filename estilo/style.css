@@ -44,3 +44,23 @@ main {
     width: 267px;
     
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais > a >img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.705);
+    box-sizing: border-box;   
+}
+
+section#redes-sociais > a  >img:hover {
+    border: solid 2px rgb(255, 227, 66);
+    transform: translate(-8%, -8%);
+    box-shadow: 4px 10px 5px rgba(0, 0, 0, 0.705);
+    transition-duration: 0.3s;
+}
+
